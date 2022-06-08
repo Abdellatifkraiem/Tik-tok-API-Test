@@ -1,0 +1,7 @@
+Flask
+requests
+playwright
+selenium_stealth
+selenium
+TikTokApi
+SQLAlchemy
