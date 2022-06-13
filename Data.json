@@ -9,7 +9,7 @@
 
             "video_desc" : "Video1",
             "video_length" : 250,
-            "video_link" : "db.Column(db.String(100))",
+            "video_link" : "https://www.tiktok.com/@patrickhanson17/video/6835637364501531909?lang=en",
             "video_nb_shares" : 500,
             "video_nb_likes" : 1000,
             "video_nb_comments" : 23000
@@ -18,11 +18,22 @@
         {
 
             "video_desc" : "Video2",
-            "video_length" : 5620,
-            "video_link" : "db.Column(db.String(100))",
+            "video_length" : 120,
+            "video_link" : "https://www.tiktok.com/@shaunt/video/6820528865018989829?lang=en",
             "video_nb_shares" : 2350,
             "video_nb_likes" : 7800,
             "video_nb_comments" : 888
+
+        }
+        ,
+        {
+
+            "video_desc" : "Video",
+            "video_length" : 130,
+            "video_link" : "https://www.tiktok.com/@flexyalex/video/6833198289949674758?lang=en",
+            "video_nb_shares" : 4000,
+            "video_nb_likes" : 17000,
+            "video_nb_comments" : 100
 
         }
     ]
