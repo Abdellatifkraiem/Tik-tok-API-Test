@@ -36,9 +36,9 @@ def set_all_data():
     usertiktok = data['tiktok_username']
     try:
         set_user(usertiktok)
-        return "Data"
+        return jsonify ({"success": "true"})
     except Exception as e:
-        return(e)
+        return jsonify (e)
        
     
 
@@ -70,7 +70,7 @@ def get_all_data_user(user_tiktok):
         dict_user["Videos"] = list
         return  jsonify (dict_user)
     except:
-        return "Data Not Found"
+        return  jsonify ("Data Not Found")
 
     
     
