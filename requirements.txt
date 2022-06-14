@@ -1,7 +1,3 @@
-Flask
+Flask==2.1.2
 requests
-playwright
-selenium_stealth
-selenium
-TikTokApi
-SQLAlchemy
+SQLAlchemy 1.4.37
